@@ -11,6 +11,8 @@ https://asciinema.org/a/BnanoE3jGgByKPFa
 
 https://asciinema.org/a/DIMIW5LHCCu2ZWsM
 
+https://asciinema.org/a/bESfaLmwYUZozI0d
+
 ### Commands
 
 ```bash
