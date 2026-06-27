@@ -1,7 +1,8 @@
 const isObject = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
 
 const buildDiff = (data1, data2) => {
-  const keys = [...new Set([...Object.keys(data1), ...Object.keys(data2)])].sort();
+  const keys = [...new Set([...Object.keys(data1), ...Object.keys(data2)])]
+    .sort((firstKey, secondKey) => firstKey.localeCompare(secondKey));
 
   return keys.map((key) => {
     const hasKey1 = Object.hasOwn(data1, key);
