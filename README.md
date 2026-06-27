@@ -9,6 +9,8 @@ https://asciinema.org/a/FQaBQprY7XBKkiOX
 
 https://asciinema.org/a/BnanoE3jGgByKPFa
 
+https://asciinema.org/a/DIMIW5LHCCu2ZWsM
+
 ### Commands
 
 ```bash
