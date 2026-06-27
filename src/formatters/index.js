@@ -1,7 +1,9 @@
+import json from './json.js';
 import plain from './plain.js';
 import stylish from './stylish.js';
 
 const formatters = {
+  json,
   plain,
   stylish,
 };

@@ -44,3 +44,14 @@ test.each([
 
   expect(genDiff(filepath1, filepath2, 'plain')).toEqual(expected);
 });
+
+test.each([
+  ['json', 'nested-file1.json', 'nested-file2.json'],
+  ['yml', 'nested-file1.yml', 'nested-file2.yml'],
+])('genDiff formats nested %s files as json', (_format, file1, file2) => {
+  const filepath1 = getFixturePath(file1);
+  const filepath2 = getFixturePath(file2);
+  const expected = JSON.parse(fs.readFileSync(getFixturePath('nested-json-expected.json'), 'utf-8'));
+
+  expect(JSON.parse(genDiff(filepath1, filepath2, 'json'))).toEqual(expected);
+});

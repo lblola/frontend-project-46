@@ -13,6 +13,8 @@ https://asciinema.org/a/DIMIW5LHCCu2ZWsM
 
 https://asciinema.org/a/bESfaLmwYUZozI0d
 
+https://asciinema.org/a/R38NM8FMzdiDyfCZ
+
 ### Commands
 
 ```bash
