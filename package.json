@@ -8,12 +8,23 @@
     "gendiff": "bin/gendiff.js"
   },
   "scripts": {
-    "test": "node --test"
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "dependencies": {
     "commander": "^15.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "jest": "^30.4.2"
   }
 }
