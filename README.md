@@ -3,6 +3,10 @@
 
 [![Test and Lint](https://github.com/lblola/frontend-project-46/actions/workflows/test-and-lint.yml/badge.svg)](https://github.com/lblola/frontend-project-46/actions/workflows/test-and-lint.yml)
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=lblola_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=lblola_frontend-project-46&organization=lblola)
+
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=lblola_frontend-project-46&metric=coverage)](https://sonarcloud.io/summary/new_code?id=lblola_frontend-project-46&organization=lblola)
+
 ### Asciinema
 
 https://asciinema.org/a/FQaBQprY7XBKkiOX
