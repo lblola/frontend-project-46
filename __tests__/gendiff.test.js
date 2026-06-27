@@ -11,9 +11,13 @@ const __dirname = path.dirname(__filename);
 
 const getFixturePath = (filename) => path.join(__dirname, '..', '__fixtures__', filename);
 
-test('genDiff compares flat json files', () => {
-  const filepath1 = getFixturePath('file1.json');
-  const filepath2 = getFixturePath('file2.json');
+test.each([
+  ['json', 'file1.json', 'file2.json'],
+  ['yml', 'file1.yml', 'file2.yml'],
+  ['yaml', 'file1.yaml', 'file2.yaml'],
+])('genDiff compares flat %s files', (_format, file1, file2) => {
+  const filepath1 = getFixturePath(file1);
+  const filepath2 = getFixturePath(file2);
   const expected = fs.readFileSync(getFixturePath('expected.txt'), 'utf-8').trimEnd();
 
   expect(genDiff(filepath1, filepath2)).toEqual(expected);

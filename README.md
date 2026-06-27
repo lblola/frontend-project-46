@@ -7,6 +7,8 @@
 
 https://asciinema.org/a/FQaBQprY7XBKkiOX
 
+https://asciinema.org/a/BnanoE3jGgByKPFa
+
 ### Commands
 
 ```bash
